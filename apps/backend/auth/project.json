@@ -9,7 +9,9 @@
       "executor": "@nx/js:node",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "auth:build"
+        "buildTarget": "auth:build",
+        "inspect": "inspect",
+        "port": 9229
       },
       "configurations": {
         "development": {
